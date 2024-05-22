@@ -1,5 +1,5 @@
 import { connect, disconnect } from 'mongoose';
-async function connetToDatabase() {
+async function connectToDatabase() {
     try {
         await connect(process.env.MONGODB_URL);
     }
@@ -17,5 +17,5 @@ async function disconnectFromDatabase() {
         throw new Error('Could not connect to MongoDB');
     }
 }
-export { connetToDatabase, disconnect };
+export { connectToDatabase, disconnectFromDatabase };
 //# sourceMappingURL=connection.js.map

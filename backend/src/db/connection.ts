@@ -1,6 +1,6 @@
 import { connect, disconnect } from 'mongoose';
 
-async function connetToDatabase() {
+async function connectToDatabase() {
   try {
     await connect(process.env.MONGODB_URL);
   } catch (error) {
@@ -18,4 +18,4 @@ async function disconnectFromDatabase() {
   }
 }
 
-export { connetToDatabase, disconnect };
+export { connectToDatabase, disconnectFromDatabase };
