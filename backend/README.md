@@ -13,5 +13,6 @@ It's a completely secure application using JWT Tokens, HTTP-Only Cookies, Signed
 1. Setup Node, Express App with Typescript
 2. Intergrate MongoDB Database Conneciton ...Connetion hand shake
 3. Register/Login on OpenAI portal, Get API keys...
+4. Build a Secure Authentication with Tokens and HTTP-only singed cookies
 
 ### Frontend
