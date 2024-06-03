@@ -16,3 +16,8 @@ It's a completely secure application using JWT Tokens, HTTP-Only Cookies, Signed
 4. Build a Secure Authentication with Tokens and HTTP-only singed cookies
 
 ### Frontend
+
+### Middleware
+
+Middleware are functions which gets exedcuted before a request is processes.
+In Node and Express, middleware can be used to check JSON Body Validations, Tokens or Cookies Validations, Params Validation and more according to requirements.
